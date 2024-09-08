@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script modifies the /etc/hosts file to redirect IPs
+
+# Using sudo to add the necessary entries to the /etc/hosts file
+sudo bash -c 'echo -e "127.0.0.2 localhost\n8.8.8.8 facebook.com" > /etc/hosts'
